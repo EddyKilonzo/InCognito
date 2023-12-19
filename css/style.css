@@ -4,6 +4,7 @@ body {
 	height: 100%;
 	font-family: "Poppins", sans-serif;
 	-webkit-font-smoothing: antialiased;
+	scroll-behavior: smooth;
 }
 
 h1,
@@ -410,7 +411,7 @@ ol {
 }
 
 .hero__items {
-	height: 960px;
+	height: 100vh;
 	padding: 0 40px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1593,7 +1594,7 @@ ol {
 }
 
 .counter__item__number h2 {
-	color: #dfa667;
+	color: #1b276e;
 	font-size: 60px;
 	line-height: 52px;
 }
@@ -1725,7 +1726,7 @@ ol {
 }
 
 .blog__item__quote {
-	background: #dfa667;
+	background: #1b276e;
 	padding: 35px 50px;
 	position: relative;
 	margin-bottom: 55px;
@@ -1790,7 +1791,7 @@ ol {
 }
 
 .blog__pagination a:hover {
-	border: 2px solid #dfa667;
+	border: 2px solid #1b276e;
 }
 
 /*---------------------
@@ -2019,8 +2020,8 @@ ol {
 }
 
 .blog__sidebar__social a:hover {
-	color: #dfa667;
-	border-color: #dfa667;
+	color: #1b276e;
+	border-color: white ;
 }
 
 .blog__sidebar__newslatter h5 {
@@ -2446,7 +2447,7 @@ ol {
 }
 
 .contact__widget__item__text h5 {
-	color: #dfa667;
+	color: #1b276e;
 	text-transform: uppercase;
 	margin-bottom: 10px;
 }
@@ -2708,7 +2709,7 @@ ol {
 	}
 	.offcanvas__widget h4 {
 		font-size: 22px;
-		color: #dfa667;
+		color: #1b276e;
 	}
 	.header__menu {
 		display: none;
